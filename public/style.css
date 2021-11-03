@@ -9,9 +9,8 @@ body {
     width: 100%;
 }
 
-#direction-arrow {
-    transition: all 1s ease;
-    opacity: 0.5;
+.arrow .correct {
+    filter: invert(80%) sepia(99%) saturate(6256%) hue-rotate(48deg) brightness(98%) contrast(95%);
 }
 
 img {
@@ -26,18 +25,4 @@ button {
     width: 50%;
     height: 10vh;
     margin-left: 25vw;
-}
-
-
-.rotate {
-    animation: rotation 8s infinite linear;
-  }
-  
-@keyframes rotation {
-from {
-    transform: translate(50%, 50%) rotate(0deg);
-}
-to {
-    transform: translate(50%, 50%) rotate(359deg);
-}
 }
