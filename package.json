@@ -1,7 +1,6 @@
 {
   "name": "test-pages",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -17,5 +16,14 @@
   "devDependencies": {
     "webpack": "^5.61.0",
     "webpack-cli": "^4.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/igorbob/trial-pages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/igorbob/trial-pages/issues"
+  },
+  "homepage": "https://github.com/igorbob/trial-pages#readme",
+  "description": ""
 }

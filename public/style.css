@@ -1,0 +1,43 @@
+body {
+    height: 80vh;
+    overflow: hidden;
+}
+
+.arrow {
+    position: absolute;
+    top: 20vh;
+    width: 100%;
+}
+
+#direction-arrow {
+    transition: all 1s ease;
+    opacity: 0.5;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+button {
+    position: absolute;
+    bottom: 20vh;
+    width: 50%;
+    height: 10vh;
+    margin-left: 25vw;
+}
+
+
+.rotate {
+    animation: rotation 8s infinite linear;
+  }
+  
+@keyframes rotation {
+from {
+    transform: translate(50%, 50%) rotate(0deg);
+}
+to {
+    transform: translate(50%, 50%) rotate(359deg);
+}
+}
